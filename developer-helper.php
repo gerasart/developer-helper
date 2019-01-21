@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Demo plugin creator
- * Version: 5.3
+ * Version: 5.4
  * Plugin URI: https://svitsoft.com/
  * Description: developer plugin.
  * Author: Svitsoft
@@ -62,7 +62,7 @@ class DeveloperHelper {
 new DeveloperHelper();
 
 
-require 'inc/updater/plugin-update-checker.php';
+require 'vendor/updater/plugin-update-checker.php';
 
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker('https://github.com/gerasart/developer-helper/',__FILE__,'developer-helper');
 $myUpdateChecker->setAuthentication('a283aeca2b507dd9d43b8e5b0cf8f6a3e8be50ad');
