@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Demo plugin creator
- * Version: 5.1
+ * Version: 5.2
  * Plugin URI: http://www.hughlashbrooke.com/
  * Description: This is your starter template for your next WordPress plugin.
  * Author: Chameleon
@@ -71,7 +71,7 @@ class DeveloperHelper {
 new DeveloperHelper();
 
 
-require './inc/updater/plugin-update-checker.php';
+require 'inc/updater/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/gerasart/developer-helper/',
 	__FILE__,
@@ -82,6 +82,3 @@ $myUpdateChecker->setAuthentication('a283aeca2b507dd9d43b8e5b0cf8f6a3e8be50ad');
 $myUpdateChecker->setBranch('master');
 
 $myUpdateChecker->getVcsApi()->enableReleaseAssets();
-
-//#
-//include_once dirname(__FILE__) . '/inc/classes/_autoload.php';
