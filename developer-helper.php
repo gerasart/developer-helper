@@ -1,20 +1,11 @@
 <?php
 /*
  * Plugin Name: Demo plugin creator
- * Version: 5.2
- * Plugin URI: http://www.hughlashbrooke.com/
- * Description: This is your starter template for your next WordPress plugin.
- * Author: Chameleon
- * Author URI: http://www.hughlashbrooke.com/
- * Requires at least: 4.0
- * Tested up to: 4.0
- *
- * Text Domain: demo-creator
- * Domain Path: /languages/
- *
- * @package WordPress
- * @author Hugh Lashbrooke
- * @since 1.0.0
+ * Version: 5.3
+ * Plugin URI: https://svitsoft.com/
+ * Description: developer plugin.
+ * Author: Svitsoft
+ * Author URI: https://svitsoft.com/
  */
 
 if ( !defined( 'ABSPATH' ) ) exit;
@@ -72,13 +63,8 @@ new DeveloperHelper();
 
 
 require 'inc/updater/plugin-update-checker.php';
-$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/gerasart/developer-helper/',
-	__FILE__,
-	'developer-helper'
-);
 
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker('https://github.com/gerasart/developer-helper/',__FILE__,'developer-helper');
 $myUpdateChecker->setAuthentication('a283aeca2b507dd9d43b8e5b0cf8f6a3e8be50ad');
 $myUpdateChecker->setBranch('master');
-
 $myUpdateChecker->getVcsApi()->enableReleaseAssets();
