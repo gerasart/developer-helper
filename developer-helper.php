@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Demo plugin creator
- * Version: 4.0
+ * Version: 5.0
  * Plugin URI: http://www.hughlashbrooke.com/
  * Description: This is your starter template for your next WordPress plugin.
  * Author: Chameleon
@@ -83,4 +83,5 @@ $myUpdateChecker->setBranch('master');
 
 $myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
+//#
 //include_once dirname(__FILE__) . '/inc/classes/_autoload.php';
