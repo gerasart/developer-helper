@@ -81,4 +81,6 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 $myUpdateChecker->setAuthentication('a283aeca2b507dd9d43b8e5b0cf8f6a3e8be50ad');
 $myUpdateChecker->setBranch('master');
 
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
+
 //include_once dirname(__FILE__) . '/inc/classes/_autoload.php';
