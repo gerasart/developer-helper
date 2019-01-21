@@ -3,6 +3,9 @@ Vue WordPress Plugin
 
 * npm install
 * composer update
+* after change plugin change version in general .php file
 
-***Todo*** 
-* Generate config (plugin.json) from php
+***Auto uploader***
+
+* vendor/uploader
+* config  contain general .php file in bottom
