@@ -22,7 +22,6 @@ if ( !defined( 'ABSPATH' ) ) exit;
 require_once dirname( __FILE__ ) . '/vendor/autoload.php';
 
 use HaydenPierce\ClassFinder\ClassFinder;
-
 class DeveloperHelper {
 
     static $plugin_dir;
@@ -35,6 +34,7 @@ class DeveloperHelper {
         self::$basedir = plugin_dir_path( __FILE__ ) . '/inc/classes/';
 
         self::cc_autoload();
+
     }
 
     private static function cc_autoload() {
@@ -69,5 +69,16 @@ class DeveloperHelper {
 }
 
 new DeveloperHelper();
+
+
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/gerasart/developer-helper/',
+	__FILE__,
+	'developer-helper'
+);
+
+$myUpdateChecker->setAuthentication('a283aeca2b507dd9d43b8e5b0cf8f6a3e8be50ad');
+$myUpdateChecker->setBranch('master');
 
 //include_once dirname(__FILE__) . '/inc/classes/_autoload.php';
