@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Demo plugin creator
- * Version: 1.0
+ * Version: 2.0
  * Plugin URI: http://www.hughlashbrooke.com/
  * Description: This is your starter template for your next WordPress plugin.
  * Author: Chameleon
