@@ -71,7 +71,7 @@ class DeveloperHelper {
 new DeveloperHelper();
 
 
-require './inc/plugin-update-checker/plugin-update-checker.php';
+require './inc/updater/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/gerasart/developer-helper/',
 	__FILE__,
