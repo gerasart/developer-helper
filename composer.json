@@ -1,0 +1,17 @@
+{
+  "name": "chameleon/demo-creator",
+  "authors": [
+    {
+      "name": "Chameleon",
+      "email": "chameleon2die4@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DeveloperHelper\\": "inc/classes/"
+    }
+  },
+  "require-dev": {
+    "haydenpierce/class-finder": "^0.2.0"
+  }
+}
