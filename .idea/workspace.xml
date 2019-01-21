@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="428ef494-c19f-4157-b1b7-4cf16dd2608a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developer-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/developer-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugin-update-checker" beforeDir="false" afterPath="$PROJECT_DIR$/plugin-update-checker" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +20,11 @@
       <file leaf-file-name="developer-helper.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer-helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="376">
+              <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+              <folding>
+                <element signature="e#6#430#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +66,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1887" />
-    <option name="y" value="248" />
+    <option name="x" value="-2309" />
+    <option name="y" value="246" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -118,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548078183162</updated>
-      <workItem from="1548078184868" duration="823000" />
+      <workItem from="1548078184868" duration="912000" />
     </task>
     <task id="LOCAL-00001" summary="clear">
       <created>1548078218025</created>
@@ -127,11 +129,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548078218025</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="clear">
+      <created>1548079832337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548079832337</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="823000" />
+    <option name="totallyTimeSpent" value="912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
@@ -178,8 +187,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer-helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="376">
+          <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#430#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
